@@ -8,4 +8,4 @@ jobs:
 
     steps:
       - name: Print message
-        run: echo "Hello DevOps! My pipeline is working"
+        run: echo "Hello DevOps! This is my second run"
