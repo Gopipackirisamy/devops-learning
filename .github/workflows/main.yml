@@ -18,3 +18,5 @@ jobs:
 
       - name: Simulate build
         run: echo "Build completed successfully"
+      - name: List files
+        run: ls -l
