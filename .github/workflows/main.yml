@@ -21,7 +21,7 @@ jobs:
       - name: List files
         run: ls -l
         - name: Upload artifact
-  uses: actions/upload-artifact@v3
-  with:
-    name: my-build-file
-    path: app.txt
+      uses: actions/upload-artifact@v3
+      with:
+      name: my-build-file
+      path: app.txt
