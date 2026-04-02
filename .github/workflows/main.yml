@@ -10,8 +10,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Install dependencies
-        run: echo "Installing dependencies..."
+      - name: Create a file
+        run: echo "This is my app build file" > app.txt
 
-      - name: Build application
-        run: echo "Building application..."
+      - name: Read the file
+        run: cat app.txt
+
+      - name: Simulate build
+        run: echo "Build completed successfully"
